@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+
+body{
+  @apply bg-orange-300
+}
+
+.container{
+  @apply flex justify-center gap-x-4 items-start
+}
+.box{
+  @apply p-8 border w-fit rounded-lg
+}
