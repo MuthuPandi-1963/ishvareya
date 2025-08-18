@@ -1,5 +1,8 @@
+import Global from "./Global";
 import Practice from "./Practice";
-
+import Product from "./props/Product";
+import cam from './assets/camera.jpeg'
+import air from './assets/airpods.jpeg'
 export default function App() {
 
   const user = {
@@ -23,6 +26,16 @@ export default function App() {
   
   
   return (
-  <Practice/>
+  // <Practice/>
+  <>
+  <Global>
+
+  <Product pname ={"Camera"} price={20000} image={cam}  />
+  <Product pname ={"Headphone"} price={10000} image={air}/>
+  <Product pname ={"Ipad"} price={40000}/>
+  <Product />
+  <Product/>
+  </Global>
+  </>
   )
 }
