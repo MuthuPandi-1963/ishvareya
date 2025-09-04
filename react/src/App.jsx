@@ -46,12 +46,14 @@
 import React from 'react'
 import Login from './componens/Login'
 import Signup from './componens/Signup'
+import TodoList from './todo/TodoList'
 
 export default function App() {
   return (
     <>
-    <Login/>
-    <Signup/>
+    {/* <Login/>
+    <Signup/> */}
+    <TodoList/>
     </>
   )
 }
